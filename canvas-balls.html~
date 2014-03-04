@@ -5,8 +5,14 @@
 	<title>bouncing balls using canvas</title>
 
 	<style>
-		html, body { width: 100%, height 100% }
-		canvas { display: block; } 
+		body { 
+			width: 100%;
+			height: 100%;
+		}
+		canvas {
+			/*background-color: green;*/
+			display: block;
+		} 
 	</style>
 
 	<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
