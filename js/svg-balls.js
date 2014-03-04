@@ -92,7 +92,7 @@ setInterval(playground.loop, 15);
 
 // create a new circle each time user clicks in the browser
 document.onclick = function(e) {
-	if (e.x > 30 && e.x < document.body.clientWidth - 30 && e.y > 30 && e.y < document.body.clientHeight - 35)
+	if (e.x > 30 && e.x < document.body.clientWidth - 30 && e.y > 30 && e.y < document.body.clientHeight - 40)
 		playground.createNewCircle(e.x,e.y);
 }
 

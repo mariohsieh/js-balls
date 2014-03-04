@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>bouncing balls using canvas</title>
+
+	<style>
+		html, body { width: 100%, height 100% }
+		canvas { display: block; } 
+	</style>
+
+	<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="js/canvas-balls.js"></script>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+</body>
+</html>
